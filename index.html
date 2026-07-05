@@ -1,152 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Ajay Naidu Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Naidu | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
+<!-- ================= NAVBAR ================= -->
 
-        <img src="myphoto.png" alt="My Photo">
+<nav>
 
-        <h1>Ajay Naidu</h1>
+    <h2>Ajay Naidu</h2>
 
-        <p>MCA Student | Java Developer | Web Developer</p>
+    <ul>
 
-        <a href="resume.pdf" download>
-            <button>Download Resume</button>
-        </a>
+        <li><a href="#home">Home</a></li>
 
-    </section>
+        <li><a href="#about">About</a></li>
 
-    <!-- ABOUT -->
-    <section>
+        <li><a href="#skills">Skills</a></li>
 
-        <h2>About Me</h2>
+        <li><a href="#education">Education</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <img src="myphoto.png" class="profile">
+
+        <h1>Hi, I'm <span>Ajay Naidu</span></h1>
+
+        <h3>MCA Student | Java Developer | Python Developer | AI Enthusiast</h3>
 
         <p>
-            I am an MCA student interested in Java,
-            Web Development and Artificial Intelligence.
+            Passionate Full Stack Developer who enjoys building modern
+            web applications and AI-based projects.
         </p>
 
-    </section>
+        <div class="buttons">
 
-    <!-- SKILLS -->
-    <section>
+            <a href="resume.pdf" download class="btn">Download Resume</a>
 
-        <h2>Skills</h2>
-
-        <ul>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Flask</li>
-            <li>MySQL</li>
-        </ul>
-
-    </section>
-
-    <!-- EDUCATION -->
-    <section>
-
-        <section id="education">
-
-    <h2>Education</h2>
-
-    <div class="education-card">
-        <h3>Master of Computer Applications (MCA)</h3>
-        <p><strong>University:</strong> MITS Deemed to be University</p>
-        <p><strong>Institution:</strong> Madanapalle Institute of Technology and Science</p>
-        <p><strong>Status:</strong> Pursuing</p>
-    </div>
-
-    <div class="education-card">
-        <h3>Bachelor of Computer Applications (BCA)</h3>
-        <p><strong>University:</strong> Bangalore North University</p>
-        <p><strong>Institution:</strong> Sree Venkateshwara Degree College</p>
-        <p><strong>Status:</strong> Completed</p>
-    </div>
-
-    <div class="education-card">
-        <h3>Intermediate (EBAC's)</h3>
-        <p><strong>Institution:</strong> Mahadeva PU College</p>
-        <p><strong>Status:</strong> Completed</p>
-    </div>
-
-    <div class="education-card">
-        <h3>Secondary School (SSLC)</h3>
-        <p><strong>Institution:</strong> Jyothi Educational Trust</p>
-        <p><strong>Status:</strong> Completed</p>
-    </div>
-
-</section>
-
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section>
-
-        <h2>Certifications</h2>
-
-        <ul>
-            <li>Java Certification</li>
-            <li>Web Development Certification</li>
-        </ul>
-
-    </section>
-
-    <!-- INTERNSHIP -->
-    <section>
-
-        
-    <!-- PROJECTS -->
-    <section>
-
-        <h2>Projects</h2>
-
-        <div class="project">
-
-            <img src="project1.png" alt="Project">
-
-            <h3>AI Image Generator</h3>
-
-            <p>
-                AI powered image generation website.
-            </p>
+            <a href="#projects" class="btn2">View Projects</a>
 
         </div>
 
-    </section>
+        <div class="social">
 
-    <!-- LINKEDIN -->
-    <section id="contact">
+            <a href="#"><i class="fab fa-github"></i></a>
 
-    <h2>Contact Me</h2>
+            <a href="https://www.linkedin.com/in/ajay-naidu-55b4973b7"><i class="fab fa-linkedin"></i></a>
 
-    <div class="contact-card">
+            <a href="#"><i class="fas fa-envelope"></i></a>
 
-        <p><strong>Name:</strong> Ajay Naidu B</p>
-
-        <p><strong>Email:</strong> ajaynaidu953@gmail.com</p>
-
-        <p><strong>Phone:</strong> +91 7483469553</p>
-
-        <p><strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/ajay-naidu-55b4973b7" target="_blank">
-                View Profile
-            </a>
-        </p>
-
-        <p><strong>Location:</strong> India</p>
+        </div>
 
     </div>
 
 </section>
 
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+I am currently pursuing my Master of Computer Applications (MCA). I enjoy developing web applications using Java, Python, Flask, HTML, CSS, JavaScript and MySQL. My goal is to become a Full Stack Developer while exploring Artificial Intelligence and Machine Learning.
+
+</p>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skill-container">
+
+<div class="skill-card">☕ Java</div>
+
+<div class="skill-card">🐍 Python</div>
+
+<div class="skill-card">🌐 HTML</div>
+
+<div class="skill-card">🎨 CSS</div>
+
+<div class="skill-card">⚡ JavaScript</div>
+
+<div class="skill-card">🗄 MySQL</div>
+
+<div class="skill-card">🔥 Flask</div>
+
+<div class="skill-card">⚛ React (Learning)</div>
+
+</div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="education-card">
+
+<h3>MCA</h3>
+
+<p>MITS Deemed to be University</p>
+
+<p>Pursuing</p>
+
+</div>
+
+<div class="education-card">
+
+<h3>BCA</h3>
+
+<p>Bangalore North University</p>
+
+<p>Completed</p>
+
+</div>
+
+<div class="education-card">
+
+<h3>Intermediate</h3>
+
+<p>Mahadeva PU College</p>
+
+</div>
+
+<div class="education-card">
+
+<h3>SSLC</h3>
+
+<p>Jyothi Educational Trust</p>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<img src="project1.png">
+
+<h3>AI Image Generator</h3>
+
+<p>
+
+AI-powered image generation website using Python and Flask.
+
+</p>
+
+<button>GitHub</button>
+
+</div>
+
+<div class="project-card">
+
+<img src="attendance.png">
+
+<h3>Smart Attendance System</h3>
+
+<p>
+
+Face Recognition Attendance using Python.
+
+</p>
+
+<button>GitHub</button>
+
+</div>
+
+<div class="project-card">
+
+<img src="assistant.png">
+
+<h3>AI Home Assistant</h3>
+
+<p>
+
+Voice-controlled AI Assistant with automation.
+
+</p>
+
+<button>GitHub</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section>
+
+<h2>Certifications</h2>
+
+<div class="skill-container">
+
+<div class="skill-card">Java Certification</div>
+
+<div class="skill-card">Web Development</div>
+
+<div class="skill-card">Python Programming</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<div class="contact">
+
+<p><i class="fas fa-user"></i> Ajay Naidu</p>
+
+<p><i class="fas fa-envelope"></i> ajaynaidu953@gmail.com</p>
+
+<p><i class="fas fa-phone"></i> +91 7483469553</p>
+
+<p><i class="fab fa-linkedin"></i> LinkedIn</p>
+
+<p><i class="fas fa-location-dot"></i> India</p>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Ajay Naidu | Designed with ❤️
+
+</p>
+
+</footer>
+
 </body>
+
 </html>
